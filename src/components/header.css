@@ -1,0 +1,40 @@
+.navbar-container {
+  background-color: #e3e6f3;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.logo-header {
+  display: flex;
+}
+.logo-name {
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.form-wrapper {
+  display: flex;
+}
+.input-text {
+  background-color: transparent;
+  outline: none;
+}
+
+.navbar-icons-wrapper {
+  display: flex;
+}
+
+.wishlist-wrapper,
+.cart-wrapper,
+.account-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.module.css";
+import "./header.css";
 import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import StorefrontOutlinedIcon from "@mui/icons-material/StorefrontOutlined";
@@ -12,30 +12,42 @@ const Header = () => {
     <div className="navbar">
       <div className="navbar-container">
         <div className="logo-header">
-          <StorefrontOutlinedIcon />
-          <Link to="/">BLANJAIN</Link>
+          <StorefrontOutlinedIcon sx={{ fontSize: 40, mr: 2 }} />
+          <Link className="logo-name" to="/">
+            BLANJAIN
+          </Link>
         </div>
 
-        <div className="searchbar-wrapper">
-          <SearchIcon />
+        <div className="searchbar-container">
+          <form className="form-wrapper">
+            <SearchIcon sx={{ fontSize: 30 }} />
+            <input
+              type="text"
+              className="input-text"
+              placeholder="cari produk..."
+            />
+          </form>
+        </div>
+
+        {/* <div className="searchbar-wrapper">
           <input
             className="input-text"
             type="text"
             placeholder="cari produk..."
           />
-        </div>
+        </div> */}
 
-        <div className="navbar-icons">
+        <div className="navbar-icons-wrapper">
           <div className="wishlist-wrapper">
-            <FavoriteBorderOutlinedIcon />
+            <FavoriteBorderOutlinedIcon sx={{ marginBottom: 1 }} />
             <span>Wishlist</span>
           </div>
           <div className="cart-wrapper">
-            <ShoppingCartOutlinedIcon />
+            <ShoppingCartOutlinedIcon sx={{ marginBottom: 1 }} />
             <span>Keranjang</span>
           </div>
           <div className="account-wrapper">
-            <AccountCircleOutlinedIcon />
+            <AccountCircleOutlinedIcon sx={{ marginBottom: 1 }} />
             <span>Akun</span>
           </div>
         </div>
