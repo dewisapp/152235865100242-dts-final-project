@@ -2,53 +2,37 @@ import React from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
-import StorefrontOutlinedIcon from "@mui/icons-material/StorefrontOutlined";
-import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
-import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 const Header = () => {
   return (
-    <div className="navbar">
-      <div className="navbar-container">
-        <div className="logo-header">
-          <StorefrontOutlinedIcon sx={{ fontSize: 40, mr: 2 }} />
-          <Link className="logo-name" to="/">
-            BLANJAIN
-          </Link>
-        </div>
+    <div className="header">
+      <div className="header-container">
+        <Link className="logo-name" to="/home">
+          ForUs
+        </Link>
 
-        <div className="searchbar-container">
-          <form className="form-wrapper">
-            <SearchIcon sx={{ fontSize: 30 }} />
-            <input
-              type="text"
-              className="input-text"
-              placeholder="cari produk..."
-            />
+        <div className="search">
+          <form className="search-wrapper">
+            <input type="text" className="input-text" placeholder="Search..." />
+            <button className="search-button">
+              <SearchIcon className="search-icon" />
+            </button>
           </form>
         </div>
 
-        {/* <div className="searchbar-wrapper">
-          <input
-            className="input-text"
-            type="text"
-            placeholder="cari produk..."
-          />
-        </div> */}
-
-        <div className="navbar-icons-wrapper">
-          <div className="wishlist-wrapper">
-            <FavoriteBorderOutlinedIcon sx={{ marginBottom: 1 }} />
-            <span>Wishlist</span>
-          </div>
-          <div className="cart-wrapper">
-            <ShoppingCartOutlinedIcon sx={{ marginBottom: 1 }} />
-            <span>Keranjang</span>
-          </div>
-          <div className="account-wrapper">
-            <AccountCircleOutlinedIcon sx={{ marginBottom: 1 }} />
-            <span>Akun</span>
+        <div className="header-icons-wrapper">
+          <span className="header-icon user-icon">Dewy</span>
+          <NotificationsNoneIcon className="header-icon" />
+          <div className="account-wrapper ">
+            <AccountCircleOutlinedIcon />
+            <div className="options">
+              <span>Setting</span>
+              <span>Logout</span>
+            </div>
+            <ArrowDropDownIcon />
           </div>
         </div>
       </div>

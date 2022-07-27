@@ -1,0 +1,43 @@
+.hero-container {
+  margin: 4em 6em;
+}
+
+.hero-edition-wrapper {
+  display: flex;
+  margin-bottom: 1.6em;
+  cursor: pointer;
+}
+
+.hero-edition {
+  font-size: 1.4em;
+  opacity: 0.8;
+  margin-right: 0.5em;
+}
+
+.arrow-down {
+  font-size: 1.4em;
+  opacity: 0.8;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+.hero-item {
+}
+
+.row-1 {
+}
+
+.hero-item-title {
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero-item-subtitle {
+  font-size: 1.4em;
+}

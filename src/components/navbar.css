@@ -1,0 +1,27 @@
+.navbar-container {
+  display: flex;
+  margin-top: 3em;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-container span {
+  padding: 0 2em;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+
+.border {
+  position: relative;
+}
+
+.border::before {
+  content: "";
+  position: absolute;
+  width: 130em;
+  height: 0.2em;
+  background-color: #000;
+  bottom: -1em;
+  left: 50%;
+  transform: translateX(-50%);
+}

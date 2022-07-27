@@ -1,40 +1,81 @@
-.navbar-container {
+.header-container {
   background-color: #e3e6f3;
-  height: 80px;
+  height: 5em;
   justify-content: space-around;
   align-items: center;
   display: flex;
 }
 
-.logo-header {
-  display: flex;
-}
 .logo-name {
-  font-size: 30px;
+  font-size: 3em;
   text-decoration: none;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 0.2em;
   color: #000;
 }
 
-.form-wrapper {
+.search-wrapper {
   display: flex;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10em;
+  padding: 0.4em 0.6em;
 }
+
 .input-text {
-  background-color: transparent;
+  background: transparent;
+  border: 0;
   outline: none;
+  padding: 0.4em 0.6em;
+  font-size: 1.4em;
+  color: #000;
 }
 
-.navbar-icons-wrapper {
+.input-text::placeholder {
+  color: #000;
+  opacity: 0.5;
+}
+
+.search-button {
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #e3e6f3;
+}
+
+.header-icons-wrapper {
   display: flex;
+  align-items: center;
+  font-size: 1.6em;
+  cursor: pointer;
 }
 
-.wishlist-wrapper,
-.cart-wrapper,
+.header-icon {
+  margin-right: 1em;
+}
+
+.user-icon {
+  font-weight: 700;
+}
+
 .account-wrapper {
   display: flex;
-  flex-direction: column;
-  padding: 0 30px;
   align-items: center;
-  cursor: pointer;
+}
+
+.options {
+  margin-top: 15em;
+}
+
+.options > span {
+  padding: 2em;
+}
+.account-wrapper > .options {
+  display: none;
+  background-color: #e3e6f3;
+}
+
+.account-wrapper:hover > .options {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
 }
