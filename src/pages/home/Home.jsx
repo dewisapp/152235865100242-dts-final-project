@@ -3,6 +3,7 @@ import BreakingNews from "../../components/BreakingNews";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import Navbar from "../../components/Navbar";
+import PopularContent from "../../components/PopularContent";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Navbar />
       <BreakingNews />
       <Hero />
+      <PopularContent />
     </div>
   );
 };
