@@ -1,5 +1,6 @@
 import React from "react";
 import BreakingNews from "../../components/BreakingNews";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import Navbar from "../../components/Navbar";
@@ -13,6 +14,7 @@ const Home = () => {
       <BreakingNews />
       <Hero />
       <PopularContent />
+      <Footer />
     </div>
   );
 };

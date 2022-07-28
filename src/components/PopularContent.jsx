@@ -10,6 +10,128 @@ const PopularContent = () => {
 
       <div className="popular-content">
         <div className="popular-content-item column-1">
+          <div className="item-description border-bottom-desc">
+            <img src={imageList} alt="imagelist" />
+            <div className="desc-title">
+              Eduardo Saverin’s B Capital Raises $250 Million For Its Early
+              Stage VC Fund
+            </div>
+            <span>By Jonathan Burgos</span>
+          </div>
+          <div className="item-list">
+            <div className="item-list-wrapper">
+              <div className="item-list-img">
+                <img src={imageContent} alt="imagecont" />
+              </div>
+              <div className="item-list-desc">
+                <div className="item-list-title">
+                  Eduardo Saverin’s B Capital Raises $250 Million For Its Early
+                  Stage VC Fund
+                </div>
+                <div className="item-list-subtitle">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Nostrum totam dolor sit amet...
+                </div>
+              </div>
+            </div>
+            <div className="item-list-wrapper">
+              <div className="item-list-img">
+                <img src={imageContent} alt="imagecont" />
+              </div>
+              <div className="item-list-desc">
+                <div className="item-list-title">
+                  Eduardo Saverin’s B Capital Raises $250 Million For Its Early
+                  Stage VC Fund
+                </div>
+                <div className="item-list-subtitle">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Nostrum totam dolor sit amet...
+                </div>
+              </div>
+            </div>
+            <div className="item-list-wrapper">
+              <div className="item-list-img">
+                <img src={imageContent} alt="imagecont" />
+              </div>
+              <div className="item-list-desc">
+                <div className="item-list-title">
+                  Eduardo Saverin’s B Capital Raises $250 Million For Its Early
+                  Stage VC Fund
+                </div>
+                <div className="item-list-subtitle">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Nostrum totam dolor sit amet...
+                </div>
+              </div>
+            </div>
+            <div className="item-list-wrapper">
+              <div className="item-list-img">
+                <img src={imageContent} alt="imagecont" />
+              </div>
+              <div className="item-list-desc">
+                <div className="item-list-title">
+                  Eduardo Saverin’s B Capital Raises $250 Million For Its Early
+                  Stage VC Fund
+                </div>
+                <div className="item-list-subtitle">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Nostrum totam dolor sit amet...
+                </div>
+              </div>
+            </div>
+            <div className="item-list-wrapper">
+              <div className="item-list-img">
+                <img src={imageContent} alt="imagecont" />
+              </div>
+              <div className="item-list-desc">
+                <div className="item-list-title">
+                  Eduardo Saverin’s B Capital Raises $250 Million For Its Early
+                  Stage VC Fund
+                </div>
+                <div className="item-list-subtitle">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Nostrum totam dolor sit amet...
+                </div>
+              </div>
+            </div>
+            <div className="item-list-wrapper">
+              <div className="item-list-img">
+                <img src={imageContent} alt="imagecont" />
+              </div>
+              <div className="item-list-desc">
+                <div className="item-list-title">
+                  Eduardo Saverin’s B Capital Raises $250 Million For Its Early
+                  Stage VC Fund
+                </div>
+                <div className="item-list-subtitle">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Nostrum totam dolor sit amet...
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="popular-content-item column-2">
+          <div className="content-item-link">
+            <img src={imageContent} alt="imagecontent" />
+            <div className="item-link-desc">
+              <div className="item-link-title">
+                Eduardo Saverin’s B Capital Raises $250 Million For Its Early
+                Stage VC Fund
+              </div>
+              <span>By Jonathan Burgos</span>
+            </div>
+          </div>
+          <div className="content-item-link">
+            <img src={imageContent} alt="imagecontent" />
+            <div className="item-link-desc">
+              <div className="item-link-title">
+                Eduardo Saverin’s B Capital Raises $250 Million For Its Early
+                Stage VC Fund
+              </div>
+              <span>By Jonathan Burgos</span>
+            </div>
+          </div>
           <div className="content-item-link">
             <img src={imageContent} alt="imagecontent" />
             <div className="item-link-desc">
@@ -21,93 +143,7 @@ const PopularContent = () => {
             </div>
           </div>
         </div>
-
-        <div className="popular-content-item column-2">
-          <div className="item-description"></div>
-          <div className="item-list">
-            <div className="item-2-wrapper"></div>
-          </div>
-        </div>
       </div>
-
-      {/* <div className="popular-content">
-        <div className="popular-item">
-          <div className="item-2-wrapper">
-            <div className="item-2-img">
-              <img src={imageList} alt="imagelist" />
-            </div>
-            <div className="item-2-desc">
-              <div className="title-item-2">
-                Eduardo Saverin’s B Capital Raises $250 Million For Its Early
-                Stage VC Fund
-              </div>
-              <div className="subtitle-item-2">
-                B Capital Group—an investment firm led by Facebook cofounder
-                Eduardo Saverin, legendary investor Howard Morgan and former
-                Bain
-              </div>
-            </div>
-          </div>
-          <div className="item-2-wrapper">
-            <div className="item-2-img">
-              <img src={imageList} alt="imagelist" />
-            </div>
-            <div className="item-2-desc">
-              <div className="title-item-2">
-                Eduardo Saverin’s B Capital Raises $250 Million For Its Early
-                Stage VC Fund
-              </div>
-              <div className="subtitle-item-2">
-                B Capital Group—an investment firm led by Facebook cofounder
-                Eduardo Saverin, legendary investor Howard Morgan and former
-                Bain
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="popular-item">
-          <div className="item-1-row-1 border-bottom-pop">
-            <div className="item-1-img">
-              <img src={imageContent} alt="imagecontent" />
-            </div>
-            <div className="item-1-wrapper">
-              <div className="title-item-1">
-                Eduardo Saverin’s B Capital Raises $250 Million For Its Early
-                Stage VC Fund
-              </div>
-              <span>By Jonathan Burgos</span>
-              <div className="subtitle-item-1">
-                B Capital Group—an investment firm led by Facebook cofounder
-                Eduardo Saverin, legendary investor Howard Morgan and former
-                Bain Capital executive Raj Ganguly—raised $250 million from
-                outside investors for its early stage venture capital fund.
-              </div>
-            </div>
-          </div>
-          <div className="item-1-row-2">
-            <div className="row-2-wrapper">
-              <div className="row-2-img">
-                <img src={imageContent} alt="imagecontent" />
-              </div>
-              <div className="row-2-description">
-                <div className="row-2-link-wrapper">
-                  <div className="link-title">
-                    Eduardo Saverin’s B Capital Raises $250 Million For Its
-                    Early Stage VC Fund
-                  </div>
-                  <span>By Jonathan Burgos</span>
-                  <div className="link-subtitle">
-                    B Capital Group—an investment firm led by Facebook cofounder
-                    Eduardo Saverin, legendary investor Howard Morgan and former
-                    Bain Capital executive Raj Ganguly—raised $250 million from
-                    outside investors for its early stage venture capital fund.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

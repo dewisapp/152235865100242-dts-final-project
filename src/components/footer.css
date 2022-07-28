@@ -1,0 +1,13 @@
+.footer-bottom {
+  background: #000;
+  width: 100%;
+  padding: 0.6rem 0;
+  text-align: center;
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+.footer-bottom span {
+  font-weight: 600;
+}
