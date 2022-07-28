@@ -13,15 +13,18 @@
   font-size: 1.4em;
 }
 
-.news-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.breaking-wrapper {
+  display: grid;
+  grid-template-columns: 3fr 2%;
+}
+.news-item-wrapper {
+  display: grid;
+  gap: 0.1em;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .news-link {
-  width: 100%;
-  max-width: 250px;
+  max-width: 26em;
   margin-top: 2em;
 }
 
@@ -35,8 +38,9 @@
   margin-top: 0.5em;
 }
 
-.swipper-right {
-  cursor: pointer;
-  background: #fff;
-  border-radius: 100%;
+.arrow-right {
+  font-size: 5em;
+}
+
+@media only screen and (max-width: 768px) {
 }

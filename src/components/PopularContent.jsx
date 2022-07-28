@@ -7,8 +7,65 @@ const PopularContent = () => {
   return (
     <div className="popular-container">
       <div className="popular-title">Popular Articles</div>
-      <div className="popular-content-wrapper">
-        <div className="popular-item-1">
+
+      <div className="popular-content">
+        <div className="popular-content-item column-1">
+          <div className="content-item-link">
+            <img src={imageContent} alt="imagecontent" />
+            <div className="item-link-desc">
+              <div className="item-link-title">
+                Eduardo Saverin’s B Capital Raises $250 Million For Its Early
+                Stage VC Fund
+              </div>
+              <span>By Jonathan Burgos</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="popular-content-item column-2">
+          <div className="item-description"></div>
+          <div className="item-list">
+            <div className="item-2-wrapper"></div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="popular-content">
+        <div className="popular-item">
+          <div className="item-2-wrapper">
+            <div className="item-2-img">
+              <img src={imageList} alt="imagelist" />
+            </div>
+            <div className="item-2-desc">
+              <div className="title-item-2">
+                Eduardo Saverin’s B Capital Raises $250 Million For Its Early
+                Stage VC Fund
+              </div>
+              <div className="subtitle-item-2">
+                B Capital Group—an investment firm led by Facebook cofounder
+                Eduardo Saverin, legendary investor Howard Morgan and former
+                Bain
+              </div>
+            </div>
+          </div>
+          <div className="item-2-wrapper">
+            <div className="item-2-img">
+              <img src={imageList} alt="imagelist" />
+            </div>
+            <div className="item-2-desc">
+              <div className="title-item-2">
+                Eduardo Saverin’s B Capital Raises $250 Million For Its Early
+                Stage VC Fund
+              </div>
+              <div className="subtitle-item-2">
+                B Capital Group—an investment firm led by Facebook cofounder
+                Eduardo Saverin, legendary investor Howard Morgan and former
+                Bain
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="popular-item">
           <div className="item-1-row-1 border-bottom-pop">
             <div className="item-1-img">
               <img src={imageContent} alt="imagecontent" />
@@ -27,7 +84,6 @@ const PopularContent = () => {
               </div>
             </div>
           </div>
-          {/* BARIS KEDUA */}
           <div className="item-1-row-2">
             <div className="row-2-wrapper">
               <div className="row-2-img">
@@ -51,41 +107,7 @@ const PopularContent = () => {
             </div>
           </div>
         </div>
-        <div className="popular-item-2">
-          <div className="item-2-wrapper">
-            <div className="item-2-img">
-              <img src={imageList} alt="imagelist" />
-            </div>
-            <div className="item-2-desc">
-              <div className="title-item-2">
-                Eduardo Saverin’s B Capital Raises $250 Million For Its Early
-                Stage VC Fund
-              </div>
-              <div className="subtitle-item-2">
-                B Capital Group—an investment firm led by Facebook cofounder
-                Eduardo Saverin, legendary investor Howard Morgan and former
-                Bain
-              </div>
-            </div>
-          </div>
-          <div className="item-2-wrapper">
-            <div className="item-2-img">
-              <img src={imageList} alt="imagelist" />
-            </div>
-            <div className="item-2-desc">
-              <div className="title-item-2">
-                Eduardo Saverin’s B Capital Raises $250 Million For Its Early
-                Stage VC Fund
-              </div>
-              <div className="subtitle-item-2">
-                B Capital Group—an investment firm led by Facebook cofounder
-                Eduardo Saverin, legendary investor Howard Morgan and former
-                Bain
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </div> */}
     </div>
   );
 };
